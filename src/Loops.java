@@ -23,20 +23,26 @@ public class Loops
       System.out.println();
 
    /* Task 5 */
-        int c = 0;
-        int v = 1;
       for(int oC = 0; oC < 5; oC++){
+         int c = 0;
           do{
-                  System.out.print("*");
-          }while(c < v);
+              System.out.print("*");
+              c++;
+          }while(c <= oC);
           System.out.println();
-          v++;
-
       }
       System.out.println();
 
    /* Task 6 */
-
+        for(int C = 5; C > 0; C--){
+            int i = 1;
+            do{
+                System.out.print("*");
+                i++;
+            }while(i <= C);
+            System.out.println();
+        }
+        System.out.println();
    /* Task 7 */
        for(int outerCount = 0; outerCount < 5; outerCount++) {
            for (int count = 0; count < 5; count++) {
@@ -44,5 +50,11 @@ public class Loops
            }
            System.out.println();
        }
+
+    /* Task 8 */
+
+
+
+
     }
 }
